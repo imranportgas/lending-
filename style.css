@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(180deg, #9D9169 0%, #B3A98B 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    height: 101px;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;    
+}
+
+.btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 58px 30px 28px;
+}
+
+.soc_networks{
+    display: flex;
+    padding-top: 58px;
+    padding-bottom: 28px;
+    gap: 28px;
+}
+
+.header_content{
+    position: relative;
+    color: aliceblue;
+    padding-top: 130px;
+}
+
+.header_content p{
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.call{
+    background: linear-gradient(76.82deg, #576265 11.6%, #9EA1A1 25.31%, #848B8A 48.06%, #576365 55.72%, #576265 77.23%, #757A7B 85.34%, #576265 91.31% );
+    font-size: 30px;
+    padding: 25px 50px;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.сontent_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 43px;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.cont{
+    width: 356px;
+    height: 173px;
+    background: rgba(218, 209, 178, 0.9);
+    box-shadow: -5px, 10px, 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+
+.cont img{
+    width: 65px; 
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.problems{
+    background: url(./pictures/problems.jpg);
+
+}
+
+.problems_container{
+    padding-top: 70px;
+    padding-bottom: 170px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 22px;
+}
+
+.problems_container img{
+    width: 140px;
+    height: 160px;
+    padding-bottom: 20px;
+}
+
+.they_trust_us{
+    background: url(./pictures/Frame\ 4.svg);
+}
+
+.trust_container{
+    padding-top: 170px;
+    color: aliceblue;
+}
+
+.cards_2{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 80px;
+    font-size: 22px;
+
+}
+
+
+.trust_container img{
+    background: #B4A87E;
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+}
